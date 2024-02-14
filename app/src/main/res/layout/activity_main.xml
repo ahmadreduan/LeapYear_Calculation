@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#607D8B">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="#78909C"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:text="LeapYear Calculation"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <!-- res/layout/activity_main.xml -->
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/editText"
+            android:hint="Please enter a year"
+            android:layout_marginTop="30dp"
+            android:inputType="number"
+            android:maxLength="4"
+
+            />
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="48dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:inputType="number"-->
+<!--            android:text="Enter a Year" />-->
+
+        <TextView
+            android:id="@+id/tvdispley"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:background="#78909C"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Calculate"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#455A64"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
